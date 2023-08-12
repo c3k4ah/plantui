@@ -1,0 +1,42 @@
+name: plantui
+description: Demo pour la formation eTech.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  line_icons: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: CaviarDreams
+      fonts:
+        - asset: assets/font/caviar_dreams/CaviarDreams_Bold.ttf
+        - asset: assets/font/caviar_dreams/CaviarDreams_BoldItalic.ttf
+        - asset: assets/font/caviar_dreams/CaviarDreams_Italic.ttf
+        - asset: assets/font/caviar_dreams/CaviarDreams.ttf
